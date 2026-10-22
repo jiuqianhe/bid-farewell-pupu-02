@@ -1,0 +1,5 @@
+Tool: built-in imagegen / Image2
+Use case: stylized-concept
+Asset: production upload-plus icon for the 390px mobile memory app
+Reference: user-provided media upload screenshot, used only for geometry and style
+Prompt summary: one centered dandelion-pink circular button containing a thin, centered warm-white plus sign. Soft watercolor edge, crisp at 24px, no surrounding card, no shadow, no text or extra objects. Generated with a removable background; output arrived with native alpha.
