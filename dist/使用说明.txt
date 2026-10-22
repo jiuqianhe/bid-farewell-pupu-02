@@ -1,0 +1,22 @@
+「告别蒲蒲」Vite + Vercel 完整项目
+
+本地页面测试：
+1. 在项目根目录运行 npm install
+2. 运行 npm run build
+3. 运行 npm run preview
+4. 打开终端显示的本地网址
+
+本地真实 AI 测试：
+1. 将 .env.example 复制为 .env.local
+2. 写入 DEEPSEEK_API_KEY=你的密钥
+3. 运行 npx vercel dev
+
+部署：
+- 上传到 GitHub 时，仓库根目录必须直接包含 package.json、api、vercel.json 和 index.html。
+- 在 Vercel 环境变量中配置 DEEPSEEK_API_KEY 后重新部署。
+- 前端只请求 /api/chat，不会接触密钥，也不会直接请求 DeepSeek 官方地址。
+
+注意：
+- 不要直接双击 index.html；Vite 模块和 /api/chat 需要通过本地服务器或 Vercel 运行。
+- 文字、进度和媒体只在当前未刷新的页面中保留；刷新或重新打开网站后会从 0/7 重新开始。
+- 详细步骤请阅读 README.md。

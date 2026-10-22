@@ -1,0 +1,504 @@
+.home > button.petals,
+.help-card,
+.profile { width: calc(100% - 32px); }
+
+.task,
+.privacy-card,
+.physical-link,
+.help-topic { width: 100%; }
+
+/* F1 uses the newly generated source artwork directly; no screenshot crops. */
+.scene.f1 {
+  background-image: url('assets/f1-header.png');
+  background-size: 390px 142px;
+  background-position: center;
+}
+
+.home-heading {
+  position: absolute;
+  left: 39px;
+  top: 47px;
+  z-index: 2;
+  color: #242424;
+}
+
+.home-heading h1 {
+  margin: 0;
+  font-size: 24px;
+  line-height: 1.1;
+  font-weight: 700;
+}
+
+.home-heading p {
+  margin: 7px 0 0;
+  color: #79a4ad;
+  font-size: 12px;
+  line-height: 1;
+}
+
+.gear-hot {
+  right: 23px;
+  top: 46px;
+  width: 38px;
+  height: 38px;
+  padding: 0;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.f1-media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  pointer-events: none;
+  user-select: none;
+}
+
+.gear-hot img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transform: scale(1.78);
+  pointer-events: none;
+}
+
+.profile-avatar,
+.profile-art,
+.entry-art,
+.help-art,
+.nav-icon,
+.status-icon,
+.petal {
+  overflow: hidden;
+  flex: 0 0 auto;
+}
+
+.profile-avatar img,
+.profile-art img,
+.entry-art img,
+.help-art img {
+  position: static;
+  max-width: 100%;
+}
+
+.profile-avatar {
+  background: #dff7ff;
+}
+
+.profile-art {
+  width: 128px;
+  height: 96px;
+  margin-left: 0;
+}
+
+.profile-copy {
+  min-width: 96px;
+  width: 96px;
+  flex: 0 0 96px;
+  transform: translateX(8px);
+}
+
+.petal {
+  padding: 0;
+}
+
+.petal img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  opacity: .22;
+  filter: saturate(.45);
+}
+
+.petal.done img {
+  opacity: 1;
+  filter: none;
+}
+
+.status-icon {
+  background: transparent;
+}
+
+.status-icon img {
+  transform: scale(1.28);
+}
+
+.entry-art {
+  width: 101px;
+  height: 76px;
+  margin-top: 5px;
+  overflow: visible;
+}
+
+.entry-art img {
+  transform: scale(1.3);
+}
+
+.help-art {
+  width: 58px;
+  height: 48px;
+}
+
+.help-art img {
+  transform: scale(1.18);
+}
+
+.nav-icon {
+  width: 31px;
+  height: 30px;
+  font-size: 0;
+  overflow: visible;
+}
+
+.nav-icon img {
+  transform: scale(1.55);
+}
+
+.nav-item.active .nav-icon {
+  filter: none;
+}
+
+.home .chev {
+  width: 14px;
+  flex: 0 0 14px;
+  font-size: 33px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.entry-grid {
+  margin-bottom: 6px;
+}
+
+/* Shared direct-image treatment for F2-F6. */
+.direct-art {
+  overflow: hidden;
+  flex: 0 0 auto;
+}
+
+.direct-art img,
+.round-icon img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  pointer-events: none;
+}
+
+.page-heading {
+  position: absolute;
+  left: 78px;
+  right: 78px;
+  top: 56px;
+  z-index: 3;
+  color: #111;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.back-hot.drawn {
+  left: 32px;
+  top: 50px;
+  width: 31px;
+  height: 31px;
+  display: grid;
+  place-items: center;
+  background: #ff89ab;
+  color: #fff;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(219, 92, 132, .12);
+}
+
+.back-hot.drawn span {
+  display: block;
+  margin: -3px 0 0 -1px;
+  font-size: 31px;
+  line-height: 1;
+  font-weight: 300;
+}
+
+.journey-page .scene.f2 {
+  background-image: url('assets/f2-header.png');
+  background-size: 512px 171px;
+  background-position: center bottom;
+}
+
+.mini-petal {
+  overflow: hidden;
+  padding: 0;
+  background: transparent;
+}
+
+.mini-petal img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  opacity: .54;
+  transform: scale(2.15);
+}
+
+.task .copy .title,
+.task .copy .sub,
+.physical-link .copy .title,
+.physical-link .copy .sub {
+  display: block;
+}
+
+.mini-petal.done,
+.mini-petal.done img {
+  background: transparent;
+  color: inherit;
+  opacity: 1;
+}
+
+.task-art {
+  width: 58px;
+  height: 46px;
+}
+
+.task-art img {
+  transform: scale(1.42);
+}
+
+.placeholder-art {
+  overflow: hidden;
+  background: transparent;
+}
+
+.placeholder-art img {
+  transform: scale(1.55);
+}
+
+.page-scroll .chev {
+  width: 16px;
+  flex: 0 0 16px;
+  font-size: 28px;
+  line-height: 1;
+  font-weight: 400;
+  text-align: center;
+}
+
+/* F3 settings */
+.settings-page .scene.settings {
+  height: 213px;
+  background-image: url('assets/f3-header.png');
+  background-size: 390px 220px;
+  background-position: center bottom;
+}
+
+.header-mascot {
+  position: absolute;
+  right: 23px;
+  top: 49px;
+  width: 126px;
+  height: 112px;
+  overflow: hidden;
+}
+
+.header-mascot img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transform: scale(1.34);
+}
+
+.settings-page > .group:first-of-type {
+  margin-top: 0;
+}
+
+.settings-page .round-icon {
+  width: 46px;
+  height: 46px;
+  overflow: hidden;
+  background: transparent;
+}
+
+.settings-page .round-icon img {
+  transform: scale(1.5);
+}
+
+.settings-page .group:last-of-type .round-icon img {
+  transform: scale(1.28);
+}
+
+.settings-page .row .copy {
+  min-width: 0;
+}
+
+.settings-page .row > .sub {
+  min-width: 36px;
+  margin: 0 14px 0 auto;
+  text-align: right;
+}
+
+/* F4 privacy: match the taller reference header and keep every card inside 390px. */
+.privacy-page .scene.privacy {
+  height: 229px;
+}
+
+.privacy-page .privacy-list {
+  padding: 0 17px;
+}
+
+.privacy-page .privacy-card {
+  width: 100%;
+  max-width: 356px;
+  min-width: 0;
+  overflow: hidden;
+}
+
+.privacy-page .privacy-card .copy {
+  min-width: 0;
+  overflow: hidden;
+}
+
+.privacy-page .privacy-card .sub {
+  font-size: 12px;
+  line-height: 1.42;
+}
+
+/* F5 physical keeps the reference hero while replacing the inner illustrations. */
+.step-dot {
+  overflow: hidden;
+  padding: 0;
+  background: transparent;
+}
+
+.step-dot img {
+  transform: scale(2.25);
+  opacity: .72;
+}
+
+.step.on .step-dot img {
+  opacity: 1;
+}
+
+.physical-row-art {
+  width: 74px;
+  height: 62px;
+  margin-left: -6px;
+  overflow: hidden;
+}
+
+.physical-row-art img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transform: scale(1.34);
+}
+
+.physical-link .copy {
+  min-width: 0;
+  margin-left: 4px;
+}
+
+/* F6 help */
+.help-page .scene.help {
+  background-image: url('assets/f6-header.png');
+  background-size: 390px 170px;
+  background-position: center bottom;
+}
+
+.help-page .help-topic:first-child {
+  margin-top: 0;
+}
+
+.help-page .round-icon {
+  width: 46px;
+  height: 46px;
+  overflow: hidden;
+  background: transparent !important;
+}
+
+.help-page .round-icon img {
+  transform: scale(1.5);
+}
+
+.help-page .help-topic .copy {
+  min-width: 0;
+}
+
+.faq-item {
+  position: relative;
+  padding-left: 50px;
+}
+
+.faq-icon {
+  position: absolute;
+  left: 10px;
+  top: 8px;
+  width: 36px;
+  height: 36px;
+}
+
+.faq-icon img {
+  transform: scale(1.55);
+}
+
+.faq-q {
+  padding-left: 0;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+/* Requested final alignment fixes only. */
+.home .entry-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  width: auto;
+}
+
+.home .entry-grid .entry {
+  width: 100%;
+  min-width: 0;
+  overflow: hidden;
+}
+
+.privacy-page .privacy-list {
+  width: 100%;
+  max-width: 390px;
+  overflow: hidden;
+}
+
+.privacy-page .privacy-card {
+  box-sizing: border-box;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.help-topic .copy .title,
+.help-topic .copy .sub {
+  display: block;
+}
+
+.help-page .faq {
+  overflow: hidden;
+  border-radius: 24px;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+}
+
+.physical-page .steps::before {
+  z-index: 0;
+}
+
+.physical-page .step {
+  z-index: 1;
+}
+
+.physical-page .step-dot,
+.physical-page .step.on .step-dot {
+  z-index: 2;
+  background: #fff;
+}
