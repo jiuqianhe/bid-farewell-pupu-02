@@ -1,0 +1,6 @@
+Tool: built-in imagegen / Image2
+Use case: stylized-concept
+Asset: four production UI mood icons for the 390px mobile memory app
+References: user-provided D3.png as the visual style and layout reference; current detail screenshot only as defect context
+Prompt summary: exactly four circular pastel watercolor faces in a 2x2 grid: 开心 with heart eyes, 平静 with dot eyes, 放松 with closed eyes, 低落 with a sad expression. Pale blush discs, dandelion-pink outlines and muted blue-gray marks. No text, labels, shadows or extra objects. Generated with a removable background; output arrived with native alpha.
+

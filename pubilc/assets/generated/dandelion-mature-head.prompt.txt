@@ -1,0 +1,12 @@
+Use case: illustration-story
+Asset type: layered mobile UI progress asset
+Primary request: Create one isolated, fully mature white dandelion seed head that can precisely overlay and replace the yellow flower head in the supplied reference artwork as the farewell-task progress reaches 7/7.
+Input image: the supplied C1 screenshot is a style and shape reference only; do not recreate the screen.
+Scene/backdrop: perfectly flat solid #00ff00 chroma-key background for background removal; absolutely uniform, with no shadows, gradients, texture, floor plane, reflections, or lighting variation.
+Subject: one round white fluffy dandelion seed head only, front-facing, no stem, no leaves, no additional flowers. Dense airy white pappus filaments, soft pale cream center, delicate separated seeds around the perimeter.
+Style/medium: match the original app's polished pastel watercolor children's-book illustration, soft luminous edges, fine hand-painted detail, cute and gentle rather than botanical realism.
+Composition/framing: centered single flower head, circular silhouette, generous padding on all sides, no clipping.
+Color palette: white, warm ivory, a tiny hint of pale yellow at the center; do not use #00ff00 anywhere in the subject.
+Constraints: no text, no icon, no watermark, no stem, no leaf, no cast shadow, no contact shadow. Preserve a clean isolated silhouette suitable for alpha extraction.
+
+Generated with the built-in image generation tool. The selected output already contained a transparent alpha background, so no chroma-key removal was necessary.

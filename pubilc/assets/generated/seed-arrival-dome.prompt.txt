@@ -1,0 +1,13 @@
+Tool: OpenAI built-in image generation (gpt-image-2)
+Reference: D1.png, used only for watercolor style, palette, glass-dome form and softness.
+
+Use case: stylized-concept
+Asset type: a small UI illustration used for the just-archived seed arrival animation in a 390×844 mobile memorial app
+Primary request: create one delicate dandelion seed floating inside a softly glowing glass bell jar on a small pale peach wooden base, matching the exact watercolor pastel visual language of the supplied reference
+Composition: centered isolated object, square canvas, generous padding, front view
+Style/medium: polished children’s-book watercolor with softly airbrushed pastel details
+Color palette: cream yellow, dandelion pink #FD7BA1, mint green, pale peach, sky blue highlights
+Lighting/mood: warm, tender, quiet, subtle magical sparkles
+Constraints: one glass dome only, one dandelion seed only, no mascot, no characters, no interface, no buttons, no text, no numbers, no logo, no watermark
+
+Saved project asset: assets/generated/seed-arrival-dome.png
